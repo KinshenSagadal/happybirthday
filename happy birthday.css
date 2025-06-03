@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+  background: linear-gradient(to right, #ffe6f0, #5ae7f1);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+  padding-top: 70px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ff4d6d !important;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  border: 2px solid #333;
+}
+
+.nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffe6cc !important;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+  background-color: #ff6f61;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3b2e;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 3rem;
+  color: #ff4d6d;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px #fff0f5;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(255, 77, 109, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 77, 109, 0.3);
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #ff4d6d;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* Container and Row Styles */
+.container {
+  max-width: 1200px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+}
